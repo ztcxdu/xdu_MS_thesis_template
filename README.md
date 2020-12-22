@@ -24,7 +24,7 @@ XDUthesis_xelatex is an *unofficial* XeLaTeX template for preparing bachelor, ma
 
 本模板需要使用 XeTeX 引擎编译。模板验证无问题的平台为win10 1909 和TeX Live 2020。
 
-## 知已问题
+## 已知问题
 使用XeTeX时，AutoFakeBold选项导致复制乱码。模板中在`\begin{document}`后插入一个日文的空格'　'，使得除章节一级标题外其他内容可复制。
 
 
