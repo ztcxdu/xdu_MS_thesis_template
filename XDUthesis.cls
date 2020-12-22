@@ -195,18 +195,21 @@
 
 %% 参考网址：https://en.wikibooks.org/wiki/LaTeX/Page_Layout
 %% page ql head
-\setlength{\textwidth}{\paperwidth}%
-\setlength{\textheight}{\paperheight}%
+\setlength{\textwidth}{\paperwidth-5.5cm}% 2.5+2.5+0.5
+\setlength{\textheight}{\paperheight-3cm-3cm}%
 \setlength\marginparwidth{0cm}%
 \setlength\marginparsep{0cm}%
-\addtolength{\textwidth}{-5.5cm}% 2.5+2.5+0.5
-\setlength{\oddsidemargin}{3cm-1in-\hoffset}%
+\setlength{\oddsidemargin}{3cm-1in-\hoffset}% hoffset 正文的水平偏移
 \setlength{\evensidemargin}{2.5cm-1in-\hoffset}%
-\setlength{\topmargin}{2cm-1in-\voffset}%
+%\setlength{\headheight}{31pt}%
+%\setlength{\headheight}{10.5pt}%
 \setlength{\headheight}{31pt}%
-\setlength{\headsep}{0pt}%
-\setlength{\textheight}{24cm}%
-\setlength{\footskip}{\paperheight-3cm-6pt-\textheight-1.75cm}%
+%\setlength{\headsep}{0pt}%
+%\setlength{\headsep}{1cm-10.5pt}%
+%\setlength{\headsep}{25.5pt}%
+\setlength{\headsep}{1cm-\headheight}%
+\setlength{\topmargin}{3cm-1in-\voffset-\headheight-\headsep}% voffset 正文的垂直偏移
+\setlength{\footskip}{3cm-1.75cm}%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    head and foot
