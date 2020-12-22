@@ -5,7 +5,7 @@ XDUthesis_xelatex is an *unofficial* XeLaTeX template for preparing bachelor, ma
 # 西安电子科技大学学位论文LaTex模板
 
 
-本模板根据https://github.com/103yiran/XDUthesis_xelatex修改而成，主要修复的问题有：
+本模板根据<https://github.com/103yiran/XDUthesis_xelatex>修改而成，主要修复的问题有：
 ### 学硕论文封面冒号缺失
 ### 正文与页眉间距与学校模板不一致
 ### 参考文献插入会议论文格式不正确
